@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE CAT API LOADER</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=2" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./Javascript/index.js" type="module"></script>
 </head>
+
 <body>
     <h1>Fetch Cats</h1>
-    <button>Previous</button>
-    <button>Next</button>
+    <section>
+        <button class="previous" disabled>Previous</button>
+        <button class="next">Next</button>
+    </section>
+    <p class="page-indicator">Page 0</p>
+    <section class="show-content"></section>
 </body>
+
 </html>
