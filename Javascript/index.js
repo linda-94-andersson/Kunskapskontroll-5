@@ -40,7 +40,7 @@ async function loadCats() {
     url.searchParams.append("page", settings.page);
     url.searchParams.append("order", settings.order);
 
-    pageIndicator.textContent = `Current page ${settings.page}`;
+    pageIndicator.textContent = `Showing page ${settings.page}`;
     showContent.textContent = "Loading page...";
 
     toggleButtons(true);

@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "keywords": [],
   "author": "Linda Andersson",
   "license": "ISC",
   "dependencies": {
+    "nanoid": "^3.2.0",
     "snowpack": "^3.8.8"
   }
 }
