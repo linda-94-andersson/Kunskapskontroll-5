@@ -26,7 +26,7 @@ const next = document.querySelector(".next");
 function showImg(data) {
     showContent.textContent = null;
 
-    data.forEach(({url}) => {
+    data.forEach(({ url }) => {
         const img = document.createElement("img");
         img.src = url;
         showContent.append(img);
