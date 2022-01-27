@@ -28,4 +28,4 @@ async function loadCats() {
 
 loadCats();
 
-export { loadCats }
+// export { loadCats }

@@ -1,4 +1,4 @@
-import { loadCats } from "./asyncfunction.js";
+// import { loadCats } from "./asyncfunction.js";
 
 previous.addEventListener("click", () => {
     settings.page--;
