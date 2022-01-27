@@ -1,6 +1,6 @@
 # CAT PAGE
 
-A site where you can look cats.
+A site where you can look at cats.
 
 ## Pre-requisites
 

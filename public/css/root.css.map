@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "../../app/sass/root.scss"
+    ],
+    "names": [],
+    "mappings": "AAAA;EACE;EACA;EACA",
+    "file": "root.css"
+}

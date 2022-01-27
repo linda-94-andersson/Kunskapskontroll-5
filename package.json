@@ -12,7 +12,15 @@
   "author": "Linda Andersson",
   "license": "ISC",
   "dependencies": {
+    "cssnano": "^5.0.16",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-uglify": "^3.0.2",
     "nanoid": "^3.2.0",
+    "sass": "^1.49.0",
     "snowpack": "^3.8.8"
   }
 }

@@ -1,0 +1,73 @@
+@use "./root";
+
+$simple-padding: 1em;
+
+body {
+  margin: 5%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  height: 10%;
+  padding: $simple-padding;
+  width: 10em;
+  margin: 1em 0;
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+  border-radius: 200px;
+  &:hover {
+    transform: rotate(360deg);
+  }
+}
+
+// Only if background.js is active
+// .background-img {
+//   border-radius: 0;
+//   transition: none;
+//   transform: none;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   z-index: -1;
+//   object-fit: fill;
+//   height: 100vh;
+// }
+
+.show-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 70em;
+  gap: 1.5em;
+  padding: $simple-padding;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+  .show-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin: 2.5%;
+  }
+
+  .show-content {
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 120em;
+  }
+}

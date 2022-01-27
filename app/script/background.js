@@ -1,10 +1,4 @@
-// This code is for checking the communications with the API
-$(document).ready(function () {
-    $.ajax(backgroundSettings).done(function (response) {
-        console.log(response);
-    });
-});
-
+// For random cat img as background 
 const backgroundSettings = {
     "async": true,
     "crossDomain": true,
@@ -51,4 +45,6 @@ async function loadCatBackground() {
 
 loadCatBackground();
 
-export { loadCatBackground }
+// export { loadCatBackground }
+
+// import { loadCatBackground } from "./background.js";

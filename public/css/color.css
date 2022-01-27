@@ -1,0 +1,23 @@
+* {
+  margin: 0 auto;
+  padding-inline-start: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c53535;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.171);
+  color: #ececec;
+  text-shadow: 2px 2px black;
+  border: 1px solid black;
+}
+
+.show-content {
+  background-color: rgba(255, 255, 255, 0.171);
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=color.css.map */
