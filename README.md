@@ -2,6 +2,8 @@
 
 A site where you can look at cats.
 
+https://kunskapskontroll-5.netlify.app
+
 ## Pre-requisites
 
 Before you proceed to install you need to have following tools installd:
