@@ -1,8 +1,4 @@
-$(document).ready(function () {
-    $.ajax(settings).done(function (response) {
-        console.log(response);
-    });
-});
+import { loadCatBackground } from "./background.js";
 
 const pageIndicator = document.querySelector(".page-indicator");
 const showContent = document.querySelector(".show-content");
@@ -30,7 +26,7 @@ function showImg(data) {
         const img = document.createElement("img");
         img.src = url;
         showContent.append(img);
-    })
+    }); 
 }
 
 async function loadCats() {
@@ -69,11 +65,13 @@ function toggleButtons(disabled) {
 previous.addEventListener("click", () => {
     settings.page--;
     loadCats();
+    loadCatBackground();  
 });
 
 next.addEventListener("click", () => {
     settings.page++;
     loadCats();
+    loadCatBackground();  
 });
 
 loadCats(); 
